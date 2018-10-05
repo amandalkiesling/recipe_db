@@ -18,6 +18,7 @@ gem 'nested_form_fields'
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
 end
+gem 'carrierwave', '~>1.0'
 
 group :development do
   gem 'web-console', '>= 3.3.0'
