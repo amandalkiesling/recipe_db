@@ -19,6 +19,7 @@ group :development, :test do
   gem 'sqlite3'
 end
 gem 'carrierwave', '~>1.0'
+gem 'fog-aws'
 
 group :production do
 	gem 'pg'
