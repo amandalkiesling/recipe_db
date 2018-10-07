@@ -28,11 +28,11 @@
   </div>
 
   <div class="form-group">
-    <%= form.label :description %>
+    <h3><%= form.label :description %></h3>
     <%= form.text_area :description, id: :recipe_description, class: "form-control-description" %>
   </div>
 
-  <div class="form-group-ingredients">
+  <div class="form-group">
     <h3>Add Ingredients</h3>
       <%= form.nested_fields_for :ingredients do | ingredient | %>
         <%= ingredient.text_field :content %>
