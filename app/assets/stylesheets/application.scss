@@ -169,3 +169,16 @@ title {
   line-height: 20px;
 
 }
+
+a {
+  color: black;
+
+  &:visited {
+    color: black;
+  }
+
+  &:hover {
+    color: #fff;
+    background-color: #000;
+  }
+}
