@@ -172,12 +172,13 @@ title {
 
 a {
   color: black;
-
+  text-decoration: none;
   &:visited {
     color: black;
   }
 
   &:hover {
+    text-decoration: none;
     color: #fff;
     background-color: #000;
   }
