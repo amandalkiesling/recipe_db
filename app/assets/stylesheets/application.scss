@@ -38,7 +38,7 @@ img.recipe-index {
 
 h1 {
   font-family: 'Oleo Script', serif;
-  font-weight:bold;
+  font-weight: bold;
   font-size: 36px;
   line-height: 40px;
 
@@ -52,7 +52,7 @@ title {
 }
 
 .description-text {
-  font-family: 'Martel Sans', serif;
+  font-family: 'Martel Sans', sans-serif;
   font-size: 16px;
   line-height: 16px;
 
@@ -68,15 +68,15 @@ title {
 
 
 .link-to-text {
-  font-family: 'Martel Sans', serif;
+  font-family: 'Martel Sans', sans-serif;
   font-size: 16px;
   line-height: 16px;
 
 }
 
-.amandas-navbar {
-	margin-left: 5%;
-
-
-
-	}
+.About-page-nav li {
+	list-style-type: none;
+	font-family: 'Martel Sans', sans-serif;
+	font-size: 16px;
+	line-height: 30px;
+}
