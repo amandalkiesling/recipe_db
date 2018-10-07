@@ -4,9 +4,6 @@
 <h1>Recipes</h1>
 <div class="row">
     <% @recipes.each do |recipe| %>
-<div class="col-md4">
-    <%= link_to 'New Recipe', new_recipe_path %>
-</div>
 <div class="col-md-4">
     <div class="recipe-box">
       <% if recipe.image? %>
@@ -27,5 +24,5 @@
 
 <br>
 
-
+<%= link_to 'New Recipe', new_recipe_path %>
 </div>
