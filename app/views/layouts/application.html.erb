@@ -10,8 +10,8 @@
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
-  <div class="container">
-    <div class=navbar-background">
+  <div class="navbar-background">
+    <div class="container">
       <nav class="navbar navbar-expand-lg">
       <%= link_to "Home", root_path, class: 'navbar-brand' %>
 
@@ -26,8 +26,8 @@
         </ul>
       </div>
     </nav><!--navbar ends here-->
-  </div><!--navbar-background ends here-->
-</div><!--container for nav bar-->
+  </div><!--container for nav bar-->
+</div><!--navbar-background ends here-->
   
   <body>
   <div class="new-recipe">  <%= yield %>
