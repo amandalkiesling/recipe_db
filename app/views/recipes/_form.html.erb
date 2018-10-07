@@ -13,7 +13,7 @@
   <% end %>
 
   <div class="form-group">
-    <%= form.file_field :image %>
+    <%= form.file_field :image, class: "recipe-choose" %>
        
     <% if @recipe.image? %>
     <%= image_tag @recipe.image.url, class: "recipe-show" %>
