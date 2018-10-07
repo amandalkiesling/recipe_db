@@ -35,7 +35,7 @@
   <div class="form-group">
     <h3>Add Ingredients</h3>
       <%= form.nested_fields_for :ingredients do | ingredient | %>
-        <%= ingredient.text_field :content %>
+        <%= ingredient.text_field :content, class: "form-control" %>
         <%= ingredient.remove_nested_fields_link %>
 
       <% end %>
@@ -46,7 +46,7 @@
   <div class="form-group">
     <h3>Add Steps</h3>
       <%= form.nested_fields_for :steps do | step | %>
-        <%= step.text_field :direction %>
+        <%= step.text_field :direction, class: "form-control" %>
         <%= step.remove_nested_fields_link %>
 
       <% end %>
